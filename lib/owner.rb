@@ -4,10 +4,10 @@ class Owner
 
   @@all=[]
 
-  def initialize(name)
-    @name=name
+  def initialize(species)
     @@all<<self
     @species=species
+    @pets={:fishes=>[], :dogs=>[], :cats=>[]}
   end
 
   def self.all
