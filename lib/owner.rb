@@ -33,10 +33,11 @@ class Owner
   end
 
   def list_pets
-    @pets
+    @pets.map
   end
 
   def sell_pets
+    
   end
 
   def buy_fish(fish)
@@ -51,5 +52,6 @@ class Owner
     @pets.dogs<<dog
   end
 
+  
 
 end
