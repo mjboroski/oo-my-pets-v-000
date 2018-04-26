@@ -11,7 +11,7 @@ class Owner
 
   def self.owners_created
     @@all.map
-  end  
+  end
 
   def self.owners_count
     @@owner_count
