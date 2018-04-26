@@ -25,10 +25,7 @@ class Owner
     @@all.clear
   end
 
-  def species(species)
-    @species=species
 
-  end
 
   def pets(pets)
     @pets=pets
