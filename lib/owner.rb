@@ -6,6 +6,7 @@ class Owner
 
   def initialize(owner)
     @owner=owner
+    @@owner_count +=1
   end
 
   def pets(pets)
