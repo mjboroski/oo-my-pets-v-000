@@ -40,7 +40,7 @@ class Owner
   end
 
   def buy_fish(fish)
-    @pets.fishes<<fish
+    @fishes<<fish
   end
 
   def buy_cat(cat)
