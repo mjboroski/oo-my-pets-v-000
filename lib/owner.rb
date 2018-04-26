@@ -1,3 +1,6 @@
 class Owner
-  # code goes here
+
+  @@all={}
+  @@owner_count=0
+
 end
