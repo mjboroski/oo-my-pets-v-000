@@ -31,7 +31,7 @@ class Owner
   end
 
   def pets
-    @pets=pets
+    @pets={:fishes=>[], :dogs=>[], :cats=>[]}
   end
 
   def list_pets
