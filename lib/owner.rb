@@ -10,7 +10,7 @@ class Owner
     @pets={fish=>nil, dogs=>nil, cats=>nil}
   end
 
-  def self.owners_created
+  def self.all
     @@all.map
   end
 
