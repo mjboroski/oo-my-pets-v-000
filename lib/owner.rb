@@ -32,9 +32,9 @@ class Owner
   end
 
   def sell_pets
-    @pets.each do |species|
-      self.each do |pet|
-        @pets[species].pet.mood="nervous"
+    @pets.each do |species,animals|
+      animals.each do |pet|
+        pet.mood="nervous"
       end
     end
   end
