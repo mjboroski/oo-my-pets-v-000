@@ -8,7 +8,6 @@ class Owner
     @name=name
     @@owner_count+=1
     @@all<<self
-    @species
     @pets={:fishes=>[], :dogs=>[], :cats=>[]}
   end
 
