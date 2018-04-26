@@ -10,7 +10,7 @@ class Owner
     @@owner_count+=1
     @@all<<self
     @species="human"
-    @pets={:fishes=>[], :dogs=>[], :cats=>[]}
+
   end
 
   def self.all
