@@ -41,7 +41,7 @@ class Owner
   end
 
   def buy_fish(name)
-    self.fishes<<Fish.new(name)
+    @fishes<<Fish.new(name)
   end
 
   def buy_cat(cat)
