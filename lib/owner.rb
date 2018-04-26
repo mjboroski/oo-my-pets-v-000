@@ -37,7 +37,7 @@ class Owner
   end
 
   def sell_pets
-
+    @pets.mood="nervous"
   end
 
   def buy_fish(fish)
@@ -52,6 +52,16 @@ class Owner
     @pets.dogs<<dog
   end
 
+  def feed_fish
+    @fishes.mood="happy"
+  end
 
+  def play_with_cats
+    @fishes.mood="happy"
+  end
 
+  def walk_dogs
+    @fishes.mood="happy"
+  end
+  
 end
