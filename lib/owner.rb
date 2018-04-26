@@ -1,13 +1,13 @@
 class Owner
-  attr_accessor :owner, :pets
+  attr_accessor :name, :pets
 
   @@all={}
   @@owner_count=0
 
-  def initialize(owner)
-    @owner=owner
+  def initialize(name)
+    @name=name
     @@owner_count+=1
-    @pets={}
+    @pets={fish=>nil, dogs=>nil, cats=>nil}
   end
 
   def self.owners_created
@@ -25,4 +25,8 @@ class Owner
 
   # def pets(pets)
   #   @pets=pets
+  # end
+
+  def buy_fish(fish)
+    @pets<<fish
 end
