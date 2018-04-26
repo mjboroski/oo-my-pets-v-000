@@ -39,15 +39,15 @@ class Owner
   def sell_pets
 
     def buy_fish(fish)
-      @pets<<fish
+      @pets.fishes<<fish
     end
 
     def buy_cat(cat)
-      @pets<<cat
+      @pets.cats<<cat
     end
 
     def buy_dog(dog)
-      @pets<<dog
+      @pets.dogs<<dog
     end
 
 
