@@ -26,7 +26,7 @@ class Owner
   def species
 
   end
-    
+
   def pets(species)
     @pets=pets
   end
@@ -35,5 +35,5 @@ class Owner
     @pets<<fish
   end
 
-  
+
 end
