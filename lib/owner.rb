@@ -1,4 +1,5 @@
 class Owner
+  attr_accessor :owner
 
   @@all={}
   @@owner_count=0
@@ -7,4 +8,6 @@ class Owner
     @owner=owner
   end
 
+  def pets(pets)
+    @pets=pets
 end
