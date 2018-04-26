@@ -9,6 +9,15 @@ class Owner
     @@owner_count+=1
   end
 
-  def pets(pets)
-    @pets=pets
+  def self.owners_count
+    @@owner_count
+  end
+
+  def self.owner_reset
+    @@owner_count=0
+    @@all.clear
+  end
+
+  # def pets(pets)
+  #   @pets=pets
 end
