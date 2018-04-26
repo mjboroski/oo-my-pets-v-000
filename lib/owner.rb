@@ -9,6 +9,10 @@ class Owner
     @@owner_count+=1
   end
 
+  def self.owners_created
+    @@all.map
+  end  
+
   def self.owners_count
     @@owner_count
   end
