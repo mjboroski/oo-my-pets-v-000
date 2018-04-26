@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :owner
+  attr_accessor :owner, :pets
 
   @@all={}
   @@owner_count=0
