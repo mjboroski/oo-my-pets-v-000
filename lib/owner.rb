@@ -32,7 +32,11 @@ class Owner
   end
 
   def sell_pets
-    @pets.each.each.mood="nervous"
+    @pets.each do |species|
+      self.each do |pet|
+        @pets[species].pet.mood="nervous"
+      end   
+    end
   end
 
   def buy_fish(name)
