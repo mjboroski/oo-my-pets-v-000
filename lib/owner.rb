@@ -41,7 +41,7 @@ class Owner
   end
 
   def buy_fish(fish)
-    @pets[fishes]<<fish
+    @pets[:fishes]<<fish
   end
 
   def buy_cat(cat)
@@ -57,11 +57,11 @@ class Owner
   end
 
   def play_with_cats
-    @fishes.mood="happy"
+    @cats.mood="happy"
   end
 
   def walk_dogs
-    @fishes.mood="happy"
+    @dogs.mood="happy"
   end
 
 end
