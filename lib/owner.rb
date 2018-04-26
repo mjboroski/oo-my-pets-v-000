@@ -3,7 +3,7 @@ class Owner
   @@all={}
   @@owner_count=0
 
-  initialize(owner)
+  def initialize(owner)
     @owner=owner
   end
 
