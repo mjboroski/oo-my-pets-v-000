@@ -28,7 +28,7 @@ class Owner
   end
 
   def list_pets
-    @pets.map
+    "I have #{pets[:fishes].size} fish, #{pets[:dogs].size} dog(s), and #{pets[:cats].size} cat(s)."
   end
 
   def sell_pets
