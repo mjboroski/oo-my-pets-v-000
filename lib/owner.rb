@@ -55,7 +55,7 @@ class Owner
   end
 
   def feed_fish
-    @fishes.mood="happy"
+    pets[:fishes].mood="happy"
   end
 
   def play_with_cats
