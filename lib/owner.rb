@@ -27,10 +27,6 @@ class Owner
     "I am a #{@species}."
   end
 
-  def pets
-    @pets={:fishes=>[], :dogs=>[], :cats=>[]}
-  end
-
   def list_pets
     @pets.map
   end
