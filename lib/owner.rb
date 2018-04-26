@@ -44,13 +44,12 @@ class Owner
     @fishes<<Fish.new(name)
   end
 
-  def buy_cat(cat)
+  def buy_cat(name)
     @cats<<Cat.new(name)
-    self.cats
   end
 
-  def buy_dog(dog)
-    @fishes<<Fish.new(name)
+  def buy_dog(name)
+    @dogs<<Dog.new(name)
   end
 
   def feed_fish
